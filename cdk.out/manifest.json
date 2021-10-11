@@ -1,0 +1,1823 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "codecommit-dev-cdk-v7": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://024845724544/us-west-2",
+      "properties": {
+        "templateFile": "codecommit-dev-cdk-v7.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/codecommit-dev-cdk-v7/codebuild-ping-directory-service-role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "codebuildpingdirectoryserviceroleB67A3BD3",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:20:23)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/codebuild-ping-directory-service-role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "codebuildpingdirectoryserviceroleDefaultPolicyD41B1D57",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Role.addToPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:244:17)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:22:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCB9E5F0B4",
+            "trace": [
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:741:21)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1SubnetB4246D30",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1RouteTableFEE4B781",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1RouteTableAssociation0B0896DC",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1DefaultRoute91CEF279",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1062:19)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:789:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:788:46)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1EIP6AD938E8",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1192:21)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1NATGatewayE0556630",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1190:17)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2Subnet74179F39",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2RouteTable6F1A15F1",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2RouteTableAssociation5A808732",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2DefaultRouteB7481BBA",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1062:19)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:789:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:788:46)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2EIP4947BC00",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1192:21)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2NATGateway3C070193",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1190:17)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3Subnet631C5E25",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3RouteTable98AE0E14",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3RouteTableAssociation427FE0C6",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PublicSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1184:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:913:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3DefaultRouteA0D29D46",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1062:19)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:789:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:788:46)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3EIPAD4BC883",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1192:21)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PublicSubnet3/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet3NATGatewayD3048F5C",
+            "trace": [
+              "PublicSubnet.addNatGateway (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1190:17)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:116:27)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1Subnet8BCA10E0",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1RouteTableBE8A6027",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1RouteTableAssociation347902D1",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1DefaultRouteAE1D6490",
+            "trace": [
+              "PrivateSubnet.addRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1094:19)",
+              "NatGatewayProvider.configureSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:133:12)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:126:12)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2SubnetCFCDAA7A",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2RouteTable0A19E10E",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2RouteTableAssociation0C73D413",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2DefaultRouteF4F5CFD2",
+            "trace": [
+              "PrivateSubnet.addRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1094:19)",
+              "NatGatewayProvider.configureSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:133:12)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:126:12)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet3/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet3Subnet3EDCD457",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1028:20)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet3/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet3RouteTable192186F8",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1046:19)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet3/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet3RouteTableAssociationC28D144E",
+            "trace": [
+              "new Subnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1052:5)",
+              "new PrivateSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1216:5)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:918:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:895:28)",
+              "Vpc.createSubnets (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:890:12)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:770:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/PrivateSubnet3/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet3DefaultRoute27F311AE",
+            "trace": [
+              "PrivateSubnet.addRoute (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:1094:19)",
+              "NatGatewayProvider.configureSubnet (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:133:12)",
+              "NatGatewayProvider.configureNat (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.ts:126:12)",
+              "Vpc.createNatGateways (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:865:14)",
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:795:14)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCIGWB7E252D3",
+            "trace": [
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:777:19)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/VPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCVPCGW99B986DC",
+            "trace": [
+              "new Vpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.ts:783:19)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:29:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/SSH-SG/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SSHSG26D56496",
+            "trace": [
+              "new SecurityGroup (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.ts:289:26)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:34:17)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyRepo/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyRepoF4F48043",
+            "trace": [
+              "new Repository (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:410:24)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:48:24)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyRepo/codecommitdevcdkv7MyPipelineBEF98C89EventRule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyRepocodecommitdevcdkv7MyPipelineBEF98C89EventRuleCC786572",
+            "trace": [
+              "new Rule (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events\\lib\\rule.ts:73:22)",
+              "Repository.onEvent (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:158:18)",
+              "Repository.onStateChange (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:169:23)",
+              "Repository.onReferenceUpdated (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:185:23)",
+              "Repository.onCommit (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:220:23)",
+              "CodeCommitSourceAction.bound (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codecommit\\source-action.ts:121:29)",
+              "CodeCommitSourceAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:372:37)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/Ping-directory-v7/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pingdirectoryv7RoleF044A46D",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:639:31)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:49:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/Ping-directory-v7/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pingdirectoryv7RoleDefaultPolicy278937DE",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Project.addToRolePolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:168:17)",
+              "CodeCommitSource.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\source.ts:407:13)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:650:38)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:49:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/Ping-directory-v7/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pingdirectoryv7SecurityGroup4F8577AC",
+            "trace": [
+              "new SecurityGroup (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.ts:289:26)",
+              "Project.configureVpc (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:981:29)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:717:23)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:49:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/Ping-directory-v7/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pingdirectoryv778DEC83C",
+            "trace": [
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:692:22)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:49:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/Ping-directory-v7/PolicyDocument/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pingdirectoryv7PolicyDocument45D3D10E",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Project.addVpcRequiredPermissions (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:1063:16)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:729:10)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:49:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/ishita_pipeline/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ishitapipelineRoleC8668EB0",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:639:31)",
+              "new PipelineProject (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:56:21)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/ishita_pipeline/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ishitapipelineRoleDefaultPolicy879E9E3D",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "PipelineProject.addToRolePolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:168:17)",
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:738:10)",
+              "new PipelineProject (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:56:21)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/ishita_pipeline/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ishitapipeline2D88EE70",
+            "trace": [
+              "new Project (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\project.ts:692:22)",
+              "new PipelineProject (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codebuild\\lib\\pipeline-project.ts:12:5)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:56:21)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/ArtifactsBucketEncryptionKey/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineArtifactsBucketEncryptionKey8BF0A7F3",
+            "trace": [
+              "new Key (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-kms\\lib\\key.ts:439:22)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:242:25)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/ArtifactsBucketEncryptionKeyAlias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineArtifactsBucketEncryptionKeyAlias9D4F8C59",
+            "trace": [
+              "new Alias (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-kms\\lib\\alias.ts:143:22)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:249:9)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/ArtifactsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineArtifactsBucket727923DD",
+            "trace": [
+              "new Bucket (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:715:22)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:256:21)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineRoleC0D47CA4",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:267:31)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineRoleDefaultPolicy34F09EFA",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Function.addToPrincipal (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:92:61)",
+              "Function.addToPrincipalOrResource (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:48:26)",
+              "Bucket.grant (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:384:27)",
+              "Bucket.grantReadWrite (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:314:17)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:283:25)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineAED38ECF",
+            "trace": [
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:271:26)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Source/CodeCommit/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineSourceCodeCommitCodePipelineActionRole3B3AD87E",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "Pipeline.getRoleForAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:533:20)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:366:29)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Source/CodeCommit/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineSourceCodeCommitCodePipelineActionRoleDefaultPolicyEC1DD3CC",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Function.addToPrincipal (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:92:61)",
+              "Function.addToPrincipalOrResource (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:48:26)",
+              "Bucket.grant (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:384:27)",
+              "Bucket.grantReadWrite (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:314:17)",
+              "CodeCommitSourceAction.bound (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codecommit\\source-action.ts:131:20)",
+              "CodeCommitSourceAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:372:37)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/EventsRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineEventsRoleFAB99F32",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "Object.singletonEventRole (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events-targets\\lib\\util.ts:53:16)",
+              "CodePipeline.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events-targets\\lib\\codepipeline.ts:24:39)",
+              "Rule.addTarget (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events\\lib\\rule.ts:104:32)",
+              "Repository.onEvent (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:163:10)",
+              "Repository.onStateChange (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:169:23)",
+              "Repository.onReferenceUpdated (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:185:23)",
+              "Repository.onCommit (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:220:23)",
+              "CodeCommitSourceAction.bound (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codecommit\\source-action.ts:121:29)",
+              "CodeCommitSourceAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:372:37)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/EventsRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineEventsRoleDefaultPolicyF045F033",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Role.addToPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:244:17)",
+              "Array.forEach (<anonymous>)",
+              "Object.singletonEventRole (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events-targets\\lib\\util.ts:58:20)",
+              "CodePipeline.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events-targets\\lib\\codepipeline.ts:24:39)",
+              "Rule.addTarget (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-events\\lib\\rule.ts:104:32)",
+              "Repository.onEvent (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:163:10)",
+              "Repository.onStateChange (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:169:23)",
+              "Repository.onReferenceUpdated (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:185:23)",
+              "Repository.onCommit (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codecommit\\lib\\repository.ts:220:23)",
+              "CodeCommitSourceAction.bound (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codecommit\\source-action.ts:121:29)",
+              "CodeCommitSourceAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:372:37)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Build/CodeBuild/CodePipelineActionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineBuildCodeBuildCodePipelineActionRoleCAE538CA",
+            "trace": [
+              "new Role (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "Pipeline.getRoleForAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:533:20)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:366:29)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/MyPipeline/Build/CodeBuild/CodePipelineActionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyPipelineBuildCodeBuildCodePipelineActionRoleDefaultPolicyD9654D9B",
+            "trace": [
+              "new Policy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:236:28)",
+              "Role.addToPolicy (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:244:17)",
+              "CodeBuildAction.bound (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline-actions\\lib\\codebuild\\build-action.ts:90:18)",
+              "CodeBuildAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\action.ts:234:17)",
+              "RichAction.bind (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\rich-action.ts:30:24)",
+              "Pipeline._attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:372:37)",
+              "Stage.attachActionToPipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:155:27)",
+              "Stage.addAction (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:93:29)",
+              "new Stage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\private\\stage.ts:40:12)",
+              "Pipeline.addStage (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:313:19)",
+              "new Pipeline (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\aws-codepipeline\\lib\\pipeline.ts:302:12)",
+              "new CodeCommit (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:73:5)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:97:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/codecommit-dev-cdk-v7/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (D:\\aws\\cdk_version\\v7\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "Object.<anonymous> (D:\\aws\\cdk_version\\v7\\src\\CodeCommit.ts:98:5)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1310:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\index.ts:1313:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "main (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:331:12)",
+              "Object.<anonymous> (C:\\Users\\USER\\AppData\\Local\\npm-cache\\_npx\\1bf7c3c15bf47d04\\node_modules\\ts-node\\src\\bin.ts:482:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ]
+      },
+      "displayName": "codecommit-dev-cdk-v7"
+    }
+  }
+}
